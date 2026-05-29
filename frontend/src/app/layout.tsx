@@ -5,8 +5,9 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "DClaw App",
-  description: "DClaw vertical SaaS application",
+  title: "DClaw Policy — AI-Powered Policy Governance",
+  description:
+    "Govern, analyze, and enforce organizational policies with AI-powered conflict detection, version control, and automated approval workflows.",
 }
 
 export default function RootLayout({
@@ -15,8 +16,10 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="en" className="dark">
+      <body className={`${inter.className} bg-background text-foreground antialiased`}>
+        {children}
+      </body>
     </html>
   )
 }
