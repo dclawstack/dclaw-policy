@@ -1,0 +1,29 @@
+{
+  "app_id": "policy",
+  "name": "DClaw Policy",
+  "category": "Governance",
+  "tagline": "AI-powered policy governance for the modern enterprise",
+  "color": "#3B82F6",
+  "phase": "active",
+  "version": "1.2.0",
+  "urls": {
+    "frontend": "https://dclaw-dclaw-policy.vercel.app",
+    "docs": "/docs"
+  },
+  "features": [
+    "AI Policy Copilot",
+    "Policy Lifecycle Management",
+    "Employee Attestation & Tracking",
+    "Policy Search & Discovery",
+    "AI Gap Analysis",
+    "Version Control & Comparison",
+    "Policy Distribution Automation",
+    "Incident-Linked Policy Review"
+  ],
+  "frameworks_supported": ["GDPR", "HIPAA", "SOC 2 Type II", "ISO 27001", "NIST CSF"],
+  "tech_stack": {
+    "frontend": "Next.js 14",
+    "backend": "FastAPI",
+    "database": "PostgreSQL 16"
+  }
+}
